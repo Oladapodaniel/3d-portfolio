@@ -16,9 +16,12 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
-    tesla,
-    shopify,
+    // starbucks,
+    code360,
+    // tesla,
+    fundall,
+    // shopify,
+    complustech,
     carrent,
     jobit,
     tripguide,
@@ -42,21 +45,25 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Engineer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Vue.js Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "React Developer",
+      icon: mobile,
     },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    // {
+    //   title: "Backend Developer",
+    //   icon: backend,
+    // },
+    // {
+    //   title: "Content Creator",
+    //   icon: creator,
+    // },
   ];
   
   const technologies = [
@@ -116,57 +123,65 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Frontend Developer",
+      company_name: "Code 360",
+      icon: code360,
+      iconBg: "#12042D",
+      date: "January 2020 - October 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Turned UI/UX prototyped designs into creating excellent interactions from designs to development with more than 90% UI similarity",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Frontend Engineer",
+      company_name: "Fundall",
+      icon: fundall,
+      iconBg: "#FFFFFF",
+      date: "Jun 2022 - Oct 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Conceptualized, implemented and delivered various projects on record time including Fundall Business, Fundall Website, TS-Foundation, DSA by 35%.",
+        "Led and guided the technical team towards swift response to issues raised by the support team which increased users trust for the product by 15%",
+        "Used Trello Project Management tool for effective product and team management which increased team productivity by 38%.",
+        "Transformed and improved performance of software by 12% through code analysis, debugging, testing and refactoring.",
+        "Optimized software efficiency by 15% and improved system stability by 32%.",
+        "Collaborated closely with product team, developers and client to meet project requirement, goals and desired functionality which improved communication skills and team spirit by 12%.",
+        "Created reusable components and libraries which discourages code replicate and improves code maintainability by 20%."
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Senior Frontend Developer",
+      company_name: "Complustech Limited",
+      icon: complustech,
+      iconBg: "#FFFFFF",
+      date: "Nov 2020 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Guided team members on various projects, including Churchplus, Child CheckIn, Memberly, and Alat Faith.",
+        "Spearheaded and coached the team in delivering a useful and engaging interface, with a well structured logic flow which increased positive reviews by clients.",
+        "Tested, coded, reviewed, and delivered software with 80% on-time record.",
+        "Used Microsoft Azure DevOps Project Management tool for effective product and team management which increased productivity by 40%.",
+        "Wrote, designed and performed website updates as needed, this increase positive ratings by users by 12%",
+        "Approached code refactoring with modularity, readability, and testability in mind which reduced the existence of bugs by 40% and helped others to easily understand the codebase.",
+        "Standardized all output with a new responsive, mobile-first approach strategy which yielded fast delivery time and positive user experience by 30% .",
+        "Collaborated with product team members to implement new features which improved team spirit experience by 15%.",
+        "Established team coding standards and led a team of front-end engineers to hit product goals."
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [

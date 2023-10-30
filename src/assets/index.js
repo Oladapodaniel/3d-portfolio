@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./dapo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -22,9 +22,12 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+// import shopify from "./company/shopify.png";
+import complustech from "./company/complustech.png";
+// import starbucks from "./company/starbucks.png";
+import code360 from "./company/code360.jpeg"
+// import tesla from "./company/tesla.png";
+import fundall from "./company/fundall.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -53,9 +56,12 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
-  starbucks,
-  tesla,
+  // shopify,
+  complustech,
+  // starbucks,
+  code360,
+  // tesla,
+  fundall,
   carrent,
   jobit,
   tripguide,
