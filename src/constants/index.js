@@ -1,17 +1,27 @@
 import {
     mobile,
-    backend,
-    creator,
+    // backend,
+    // creator,
     web,
+    sass,
     javascript,
-    typescript,
+    jquery,
+    vuejs,
+    vuex,
+    // typescript,
     html,
     css,
     reactjs,
     redux,
     tailwind,
+    vuetify,
+    bootstrap,
     nodejs,
+    nuxtjs,
     mongodb,
+    firebase,
+    gsap,
+    gulpjs,
     git,
     figma,
     docker,
@@ -25,7 +35,7 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
+    // threejs,
   } from "../assets";
   
   export const navLinks = [
@@ -67,33 +77,57 @@ import {
   ];
   
   const technologies = [
+    // {
+    //   name: "HTML 5",
+    //   icon: html,
+    // },
+    // {
+    //   name: "CSS 3",
+    //   icon: css,
+    // },
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
+      name: "Sass",
+      icon: sass,
     },
     {
       name: "JavaScript",
       icon: javascript,
     },
+    // {
+    //   name: "jQuery",
+    //   icon: jquery,
+    // },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Vue JS",
+      icon: vuejs,
     },
+    // {
+    //   name: "Vue X",
+    //   icon: vuex,
+    // },
+    // {
+    //   name: "Nuxt",
+    //   icon: nuxtjs,
+    // },
     {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
+    },
+    {
+      name: "Vuetify",
+      icon: vuetify,
+    },
+    {
+      name: "Bootstrap",
+      icon: bootstrap,
     },
     {
       name: "Node JS",
@@ -104,17 +138,29 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Firebase",
+      icon: firebase,
     },
+    {
+      name: "Gulp JS",
+      icon: gulpjs,
+    },
+    // {
+    //   name: "GSAP",
+    //   icon: gsap,
+    // },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
     {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
     {
       name: "docker",
       icon: docker,

@@ -8,17 +8,27 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
+import sass from "./tech/sass.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
+import jquery from "./tech/jquery.png";
 import mongodb from "./tech/mongodb.png";
+import firebase from "./tech/firebase.png";
+import gsap from "./tech/gsap.png";
+import gulpjs from "./tech/gulpjs.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
+import vuejs from "./tech/vuejs.png"
+import vuex from "./tech/vuex.png"
+import nuxtjs from "./tech/nuxtjs.png"
+import vuetify from "./tech/vuetify.jpeg"
+import bootstrap from "./tech/bootstrap.jpeg"
+// import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
@@ -35,25 +45,35 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
-  backend,
-  creator,
+  // backend,
+  // creator,
   mobile,
   web,
   github,
   menu,
   close,
   css,
+  sass,
   docker,
   figma,
   git,
   html,
   javascript,
+  jquery,
   mongodb,
+  firebase,
+  gsap,
+  gulpjs,
   nodejs,
   reactjs,
   redux,
   tailwind,
-  typescript,
+  vuetify,
+  bootstrap,
+  // typescript,
+  vuejs,
+  vuex,
+  nuxtjs,
   threejs,
   meta,
   // shopify,
