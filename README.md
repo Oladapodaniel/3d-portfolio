@@ -6,8 +6,8 @@ It contains everything about me, my previous work experience, exciting projects 
 
 I am excited about building innovative and creative products, i will be much more excited when you reach out to me, so we can talk about how we can bring your vision to reality.🎉
 
-====================================================================================
+================
 
-                                Oladapo Daniel
+Oladapo Daniel 😀
 
-====================================================================================
+================
