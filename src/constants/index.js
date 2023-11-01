@@ -9,21 +9,21 @@ import {
     vuejs,
     vuex,
     // typescript,
-    html,
-    css,
+    // html,
+    // css,
     reactjs,
-    redux,
+    // redux,
     tailwind,
     vuetify,
     bootstrap,
     nodejs,
-    nuxtjs,
+    // nuxtjs,
     mongodb,
     firebase,
-    gsap,
+    // gsap,
     gulpjs,
     git,
-    figma,
+    // figma,
     docker,
     meta,
     // starbucks,
@@ -32,10 +32,15 @@ import {
     fundall,
     // shopify,
     complustech,
-    carrent,
-    jobit,
+    // carrent,
+    // jobit,
     tripguide,
     // threejs,
+    churchplus,
+    fundallban,
+    tfs,
+    inquest,
+    getlinked
   } from "../assets";
   
   export const navLinks = [
@@ -231,86 +236,86 @@ import {
   ];
   
   const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+  //   {
+  //     testimonial:
+  //       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+  //     name: "Sara Lee",
+  //     designation: "CFO",
+  //     company: "Acme Co",
+  //     image: "https://randomuser.me/api/portraits/women/4.jpg",
+  //   },
+  //   {
+  //     testimonial:
+  //       "I've never met a web developer who truly cares about their clients' success like Rick does.",
+  //     name: "Chris Brown",
+  //     designation: "COO",
+  //     company: "DEF Corp",
+  //     image: "https://randomuser.me/api/portraits/men/5.jpg",
+  //   },
+  //   {
+  //     testimonial:
+  //       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //     name: "Lisa Wang",
+  //     designation: "CTO",
+  //     company: "456 Enterprises",
+  //     image: "https://randomuser.me/api/portraits/women/6.jpg",
+  //   },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Fundall",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A platform that helps to improve your financial lifestyle, how you manage your financial resources, and allows you to grow your money by saving and investing it.",
       tags: [
         {
-          name: "react",
+          name: "nuxtjs",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "vuejs",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "vuetify",
           color: "pink-text-gradient",
-        },
+        }
       ],
-      image: carrent,
+      image: fundallban,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Churchplus",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A church management application that automates your entire administration processes, increasing church attendance, first timers retention and lots more.",
       tags: [
         {
-          name: "react",
+          name: "vuejs",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "elementplus",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "docker",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: churchplus,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "TFS Foundation",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The Foundation is an advocate and backer for women, people can make donations for the achievement of the objectives of the Foundation.",
       tags: [
         {
-          name: "nextjs",
+          name: "nuxtjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "vuetify",
           color: "green-text-gradient",
         },
         {
@@ -318,9 +323,84 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: tfs,
       source_code_link: "https://github.com/",
     },
+    {
+      name: "Inquest Research Center",
+      description:
+        "A web based application that allows medical practitioners enrol for clinical trial with Inquest Reseach Center, with analytical data of accepted and declined applicants.",
+      tags: [
+        {
+          name: "nuxtjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: inquest,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Get Linked",
+      description:
+        "An hackathon event that allows, whether you're a coding genius, a design lord, or a concept wizard, you'll have the chance to transform your ideas into reality.",
+      tags: [
+        {
+          name: "nuxtjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "green-text-gradient",
+        },
+      ],
+      image: getlinked,
+      source_code_link: "https://github.com/",
+    },
+    // {
+    //   name: "Crypto Code",
+    //   description:
+    //     "A crypto currency webpage project that enabled me to deepen my knowledge in gulpjs, gsap, sass. Though challenging, but thrilling and exciting project to work on.",
+    //   tags: [
+    //     {
+    //       name: "html",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //     {
+    //       name: "scss",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "gsap",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "gulpjs",
+    //       color: "green-text-gradient",
+    //     },
+    //   ],
+    //   image: tripguide,
+    //   source_code_link: "https://github.com/",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };

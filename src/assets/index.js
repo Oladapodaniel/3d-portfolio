@@ -39,8 +39,13 @@ import code360 from "./company/code360.jpeg"
 // import tesla from "./company/tesla.png";
 import fundall from "./company/fundall.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+// import carrent from "./carrent.png";
+import fundallban from "./fundall.png";
+import churchplus from "./churchplus.png";
+import tfs from "./TFS.png";
+import inquest from "./inquest.png";
+import getlinked from "./getlinked.png";
+// import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -82,7 +87,12 @@ export {
   code360,
   // tesla,
   fundall,
-  carrent,
-  jobit,
+  churchplus,
+  fundallban,
+  tfs,
+  getlinked,
+  inquest,
+  // carrent,
+  // jobit,
   tripguide,
 };
