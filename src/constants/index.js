@@ -236,30 +236,30 @@ import {
   ];
   
   const testimonials = [
-  //   {
-  //     testimonial:
-  //       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-  //     name: "Sara Lee",
-  //     designation: "CFO",
-  //     company: "Acme Co",
-  //     image: "https://randomuser.me/api/portraits/women/4.jpg",
-  //   },
-  //   {
-  //     testimonial:
-  //       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-  //     name: "Chris Brown",
-  //     designation: "COO",
-  //     company: "DEF Corp",
-  //     image: "https://randomuser.me/api/portraits/men/5.jpg",
-  //   },
-  //   {
-  //     testimonial:
-  //       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-  //     name: "Lisa Wang",
-  //     designation: "CTO",
-  //     company: "456 Enterprises",
-  //     image: "https://randomuser.me/api/portraits/women/6.jpg",
-  //   },
+    {
+      testimonial:
+        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      name: "Sara Lee",
+      designation: "CFO",
+      company: "Acme Co",
+      image: "https://randomuser.me/api/portraits/women/4.jpg",
+    },
+    {
+      testimonial:
+        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      name: "Chris Brown",
+      designation: "COO",
+      company: "DEF Corp",
+      image: "https://randomuser.me/api/portraits/men/5.jpg",
+    },
+    {
+      testimonial:
+        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      name: "Lisa Wang",
+      designation: "CTO",
+      company: "456 Enterprises",
+      image: "https://randomuser.me/api/portraits/women/6.jpg",
+    },
   ];
   
   const projects = [
@@ -283,6 +283,7 @@ import {
       ],
       image: fundallban,
       source_code_link: "https://github.com/",
+      url: "https://fundall.io"
     },
     {
       name: "Churchplus",
@@ -304,6 +305,7 @@ import {
       ],
       image: churchplus,
       source_code_link: "https://github.com/",
+      url: "https://churchplus.co"
     },
     {
       name: "TFS Foundation",
@@ -325,6 +327,7 @@ import {
       ],
       image: tfs,
       source_code_link: "https://github.com/",
+      url: "https://tfs-foundation.emergingafricagroup.com/"
     },
     {
       name: "Inquest Research Center",
@@ -350,6 +353,7 @@ import {
       ],
       image: inquest,
       source_code_link: "https://github.com/",
+      url: "https://inquestresearchcenter.com/"
     },
     {
       name: "Get Linked",
@@ -371,6 +375,7 @@ import {
       ],
       image: getlinked,
       source_code_link: "https://github.com/",
+      url: "https://get-linked-olive.vercel.app/"
     },
     // {
     //   name: "Crypto Code",
