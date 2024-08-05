@@ -46,12 +46,13 @@ import churchplus from "./churchplus.png";
 import tfs from "./TFS.png";
 import inquest from "./inquest.png";
 import getlinked from "./getlinked.png";
+import vgc from "./VGCios.jpg";
 // import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
   logo,
-  // backend,
+  backend,
   // creator,
   mobile,
   web,
@@ -94,6 +95,7 @@ export {
   tfs,
   getlinked,
   inquest,
+  vgc,
   // carrent,
   // jobit,
   tripguide,

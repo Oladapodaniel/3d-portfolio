@@ -1,6 +1,6 @@
 import {
     mobile,
-    // backend,
+    backend,
     // creator,
     web,
     sass,
@@ -40,7 +40,8 @@ import {
     fundallban,
     tfs,
     inquest,
-    getlinked
+    getlinked,
+    vgc
   } from "../assets";
   
   export const navLinks = [
@@ -59,22 +60,22 @@ import {
   ];
   
   const services = [
-    {
-      title: "Frontend Engineer",
-      icon: web,
-    },
+    // {
+    //   title: "Frontend Engineer",
+    //   icon: web,
+    // },
     {
       title: "Vue.js Developer",
-      icon: mobile,
+      icon: web,
     },
     {
       title: "React Developer",
       icon: mobile,
     },
-    // {
-    //   title: "Backend Developer",
-    //   icon: backend,
-    // },
+    {
+      title: "React Native Developer",
+      icon: backend,
+    },
     // {
     //   title: "Content Creator",
     //   icon: creator,
@@ -118,6 +119,10 @@ import {
       name: "React JS",
       icon: reactjs,
     },
+    {
+      name: "React Native",
+      icon: reactjs,
+    },
     // {
     //   name: "Redux Toolkit",
     //   icon: redux,
@@ -130,10 +135,10 @@ import {
       name: "Vuetify",
       icon: vuetify,
     },
-    {
-      name: "Bootstrap",
-      icon: bootstrap,
-    },
+    // {
+    //   name: "Bootstrap",
+    //   icon: bootstrap,
+    // },
     {
       name: "Node JS",
       icon: nodejs,
@@ -142,10 +147,10 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    {
-      name: "Firebase",
-      icon: firebase,
-    },
+    // {
+    //   name: "Firebase",
+    //   icon: firebase,
+    // },
     {
       name: "Gulp JS",
       icon: gulpjs,
@@ -158,10 +163,10 @@ import {
     //   name: "Three JS",
     //   icon: threejs,
     // },
-    {
-      name: "git",
-      icon: git,
-    },
+    // {
+    //   name: "git",
+    //   icon: git,
+    // },
     // {
     //   name: "figma",
     //   icon: figma,
@@ -203,7 +208,7 @@ import {
       ],
     },
     {
-      title: "Senior Frontend Developer",
+      title: "Frontend Mobile / Web Developer",
       company_name: "Complustech Limited",
       icon: complustech,
       iconBg: "#FFFFFF",
@@ -376,6 +381,28 @@ import {
       image: getlinked,
       source_code_link: "https://github.com/",
       url: "https://get-linked-olive.vercel.app/"
+    },
+    {
+      name: "Transfiguration VGC",
+      description:
+        "A mobile application that helps members of catholic church connect with each other, make and redeem pledges, livestream church events and lots more.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "react native",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "js",
+          color: "green-text-gradient",
+        },
+      ],
+      image: vgc,
+      source_code_link: "https://github.com/",
+      url: "https://play.google.com/store/apps/details?id=com.churchplus.transfigurationvgc"
     },
     // {
     //   name: "Crypto Code",
