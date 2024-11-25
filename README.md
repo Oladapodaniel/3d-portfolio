@@ -8,6 +8,6 @@ I am excited about building innovative and creative products, i will be much mor
 
 ================
 
-Oladapo Daniel 😀
+Oladapo Olasunkanmi 😀
 
 ================

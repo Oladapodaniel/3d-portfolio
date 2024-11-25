@@ -40,7 +40,7 @@ const Contact = () => {
       "template_sckf51f",
       {
         from_name: form.name,
-        to_name: "Oladapo Daniel",
+        to_name: "Oladapo Olasunkanmi",
         from_email: form.email,
         to_email: "oladapodaniel10@gmail.com",
         message: form.message,
